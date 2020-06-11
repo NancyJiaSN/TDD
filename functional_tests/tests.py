@@ -14,7 +14,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
 		#staging_server = os.environ.get('STAGING_SERVER')
 		#if staging_server:
 		#	self.live_server_url = 'http://' + staging_server
-		self.live_server_url = 'http://175.24.77.223'
+		self.live_server_url = 'http://121.199.69.220'
 	
 	def tearDown(self):
 		self.browser.quit()
